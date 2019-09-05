@@ -25,6 +25,7 @@
 hs_err_pid*
 
 .idea/
+code.iml
 .gitignore
 src/main/resources/
 target/generated-sources/
