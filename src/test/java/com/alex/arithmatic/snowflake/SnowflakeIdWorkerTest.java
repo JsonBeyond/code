@@ -1,4 +1,4 @@
-package com.alex.snowflake;
+package com.alex.arithmatic.snowflake;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

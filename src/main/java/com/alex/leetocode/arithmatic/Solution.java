@@ -1,6 +1,6 @@
-package com.alex.leetocode;
+package com.alex.leetocode.arithmatic;
 
-import com.alex.leetocode.help.ListNode;
+import com.alex.arithmatic.help.ListNode;
 
 import java.util.HashMap;
 import java.util.Map;

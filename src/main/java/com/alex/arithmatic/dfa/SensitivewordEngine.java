@@ -1,4 +1,4 @@
-package com.alex.dfa;
+package com.alex.arithmatic.dfa;
 
 import java.util.HashSet;
 import java.util.Iterator;

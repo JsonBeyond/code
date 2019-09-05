@@ -1,4 +1,4 @@
-package com.alex.snowflake;
+package com.alex.arithmatic.snowflake;
 
 /**
  * @ClassName SnowflakeIdWorker

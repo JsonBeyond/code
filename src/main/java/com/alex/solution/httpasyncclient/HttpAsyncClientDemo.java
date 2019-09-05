@@ -1,6 +1,6 @@
-package com.alex.httpasyncclient;
+package com.alex.solution.httpasyncclient;
 
-import com.alex.httpasyncclient.httppool.HttpClientService;
+import com.alex.solution.httpasyncclient.httppool.HttpClientService;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.HttpGet;

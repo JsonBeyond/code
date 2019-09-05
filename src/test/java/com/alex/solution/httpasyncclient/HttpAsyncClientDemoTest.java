@@ -1,6 +1,5 @@
-package com.alex.httpasyncclient;
+package com.alex.solution.httpasyncclient;
 
-import com.alex.httpasyncclient.HttpAsyncClientDemo;
 import org.apache.http.impl.nio.client.CloseableHttpAsyncClient;
 import org.apache.http.impl.nio.client.HttpAsyncClients;
 import org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager;
@@ -15,7 +14,7 @@ import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @ClassName com.alex.httpasyncclient.HttpAsyncClientDemoTest
+ * @ClassName com.alex.solution.httpasyncclient.HttpAsyncClientDemoTest
  * @Description 直接使用apache包的异步线程池 测试类
  * @Author Alex
  * @CreateDate 2019/6/12 10:31

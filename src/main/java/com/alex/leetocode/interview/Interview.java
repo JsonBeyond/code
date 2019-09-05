@@ -1,12 +1,8 @@
-package com.alex.leetocode;
-
-import org.apache.commons.lang.StringUtils;
+package com.alex.leetocode.interview;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Vector;
-import java.util.concurrent.ForkJoinPool;
 
 /**
  * @ClassName Interview
@@ -20,7 +16,7 @@ public class Interview {
 //        new Interview().arrayNesting(new int[]{5, 4, 0, 3, 1, 6, 2});
 //        new Interview().combine6(4, 2);
 
-        System.out.println(commonChars(new String[]{"cool","lock","cook"}));
+        System.out.println(commonChars(new String[]{"cool", "lock", "cook"}));
 
     }
 
@@ -160,7 +156,7 @@ public class Interview {
                     break;
                 }
             }
-            if(!isBreak){
+            if (!isBreak) {
                 ans.add(String.valueOf(s1Chars[i]));
             }
         }

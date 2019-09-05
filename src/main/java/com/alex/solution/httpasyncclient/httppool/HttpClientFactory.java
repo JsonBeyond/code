@@ -1,4 +1,4 @@
-package com.alex.httpasyncclient.httppool;
+package com.alex.solution.httpasyncclient.httppool;
 
 import org.apache.http.impl.nio.client.CloseableHttpAsyncClient;
 

@@ -1,4 +1,4 @@
-package com.alex.practise.threads;
+package com.alex.interview.threads;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;

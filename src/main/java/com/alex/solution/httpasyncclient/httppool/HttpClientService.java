@@ -1,4 +1,4 @@
-package com.alex.httpasyncclient.httppool;
+package com.alex.solution.httpasyncclient.httppool;
 
 
 import java.io.IOException;

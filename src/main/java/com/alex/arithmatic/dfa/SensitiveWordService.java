@@ -1,4 +1,4 @@
-package com.alex.dfa;
+package com.alex.arithmatic.dfa;
 
 import java.util.Arrays;
 import java.util.List;

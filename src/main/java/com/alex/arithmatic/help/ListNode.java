@@ -1,4 +1,4 @@
-package com.alex.leetocode.help;
+package com.alex.arithmatic.help;
 
 /**
  * @ClassName ListNode
