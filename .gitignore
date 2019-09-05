@@ -28,5 +28,4 @@ hs_err_pid*
 code.iml
 .gitignore
 src/main/resources/
-target/generated-sources/
-target/generated-test-sources/
+/target
