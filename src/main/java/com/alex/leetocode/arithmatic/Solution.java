@@ -276,4 +276,86 @@ public class Solution {
 
         return maxValidLength;
     }
+
+
+    /**
+     * 第几题 难
+     *
+     * @param nums1
+     * @param nums2
+     * @return double
+     * @author Alex
+     * @date 10/29/2019 7:20 PM
+     */
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int i = 0,j=0, s = 0,n1=nums1.length,n2=nums2.length,s1,s2=1,temp=0,result=0;
+        boolean ji = true;
+        if((n1+n2)%2==0){
+            s1 = (n1+n2)/2-1;
+            ji = false;
+        }else{
+            s1 = (n1+n2+1)/2-1;
+        }
+        if(s1 == s2){
+            if(ji){
+                return nums1[i]<nums2[j]?nums2[j]:nums1[i];
+            }else{
+                // return
+            }
+
+        }
+        while(i!=n1 && j != n2){
+            if(nums1[i]<nums2[j]){
+                i++;
+                s2++;
+                if(s1 == s2){
+                    if(ji){
+                        result = nums1[i];
+                        break;
+                    }else{
+                        temp = nums1[i];
+                    }
+                }else if(s1 < s2){
+                    result = temp + nums1[i];
+                    break;
+                }
+            }else if(nums1[i]>nums2[j]){
+                j++;
+                s2++;
+                if(s1 == s2){
+                    if(ji){
+                        result = nums2[j];
+                        break;
+                    }else{
+                        temp = nums2[j];
+                    }
+                }else if(s1 < s2){
+                    result = temp + nums2[j];
+                    break;
+                }
+            }else{
+                i++;
+                j++;
+                s2++;
+                if(s1 == s2){
+                    if(ji){
+                        if(nums1[i]<nums2[j]){
+                            result = nums1[i];
+                        }else{
+                            result = nums2[j];
+                        }
+                    }else{
+                        result = (nums1[i]+nums2[j])/2;
+                    }
+                    break;
+                }
+            }
+        }
+        if(i==n1 && temp !=0){
+            result = (temp + nums2[j+1])/2;
+        }else if(j==n2 && temp !=0){
+            result = (temp + nums2[i+1])/2;
+        }
+        return result;
+    }
 }
